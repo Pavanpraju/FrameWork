@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="44998" started-at="2022-02-21T17:13:25 IST" finished-at="2022-02-21T17:14:10 IST">
+    <groups>
+    </groups>
+    <test name="LoginTestchrome" duration-ms="44998" started-at="2022-02-21T17:13:25 IST" finished-at="2022-02-21T17:14:10 IST">
+      <class name="com.projectname.test.Logintest">
+        <test-method status="PASS" signature="BS()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="BS" is-config="true" duration-ms="458" started-at="2022-02-21T17:13:24 IST" finished-at="2022-02-21T17:13:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method status="PASS" signature="BT()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="BT" is-config="true" duration-ms="0" started-at="2022-02-21T17:13:25 IST" finished-at="2022-02-21T17:13:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method status="PASS" signature="BC()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="BC" is-config="true" duration-ms="0" started-at="2022-02-21T17:13:25 IST" finished-at="2022-02-21T17:13:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="setup" is-config="true" duration-ms="39251" started-at="2022-02-21T17:13:25 IST" finished-at="2022-02-21T17:14:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_Logintest_01()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="Verify_Logintest_01" duration-ms="2447" started-at="2022-02-21T17:14:04 IST" finished-at="2022-02-21T17:14:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logintest_01 -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="testDown" is-config="true" duration-ms="3047" started-at="2022-02-21T17:14:07 IST" finished-at="2022-02-21T17:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="Ac()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="Ac" is-config="true" duration-ms="1" started-at="2022-02-21T17:14:10 IST" finished-at="2022-02-21T17:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+        <test-method status="PASS" signature="AT()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="AT" is-config="true" duration-ms="1" started-at="2022-02-21T17:14:10 IST" finished-at="2022-02-21T17:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method status="PASS" signature="AS()[pri:0, instance:com.projectname.test.Logintest@595b007d]" name="AS" is-config="true" duration-ms="0" started-at="2022-02-21T17:14:12 IST" finished-at="2022-02-21T17:14:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.projectname.test.Logintest -->
+    </test> <!-- LoginTestchrome -->
+  </suite> <!-- LoginSuite -->
+</testng-results>

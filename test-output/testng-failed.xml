@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginSuite]">
+  <listeners>
+    <listener class-name="com.projectname.utility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="LoginTestchrome(failed)">
+    <parameter name="Browsername" value="chrome"/>
+    <classes>
+      <class name="com.projectname.test.Logintest">
+        <methods>
+          <include name="setup"/>
+          <include name="Verify_Logintest_01"/>
+          <include name="testDown"/>
+          <include name="AS"/>
+          <include name="BT"/>
+          <include name="Ac"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+        </methods>
+      </class> <!-- com.projectname.test.Logintest -->
+    </classes>
+  </test> <!-- LoginTestchrome(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

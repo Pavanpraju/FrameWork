@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+<listeners>
+<listener class-name="com.projectname.utility.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="LoginTestchrome">
+  <parameter name="Browsername" value="chrome"></parameter>
+    <classes>
+      <class name="com.projectname.test.Logintest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- LoginSuite -->
